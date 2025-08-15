@@ -2,7 +2,6 @@
 
 ROSの開発環境構築を行う。
 
-
 ## 環境説明
 
 ### Linux
@@ -42,7 +41,6 @@ rm <FileName>
 cat <FileName>
 ```
 
-
 Docker
 
 Dockerとはデータやプログラムを隔離できる仕組み
@@ -54,7 +52,6 @@ Dockerとはデータやプログラムを隔離できる仕組み
 
 解決法
 
-
 * コンテナIの中にはプログラムAとCのバージョン2をインストールして使い、
 * コンテナIIの中にはプログラムBとCのバージョン3をインストールして使用する
 
@@ -62,11 +59,9 @@ Dockerとはデータやプログラムを隔離できる仕組み
 
 dockerコンテナの中はPC本体の環境からは隔離されているため、安全に開発することが出来る。
 
-
 ## 演習
 
 ![1755044495994](image/2-struct-env/1755044495994.png)
-
 
 ![1755045220762](image/2-struct-env/1755045220762.png)
 
@@ -88,8 +83,11 @@ Verify Docker installation: Make sure Docker is properly installed and configure
 Following these steps should help you resolve the issue.
 ```
 
-
 ```
+
+
+
+
 Resolving the "docker: unrecognized service" Error
 
 shell - docker: unrecognized service - Stack Overflow
@@ -139,6 +137,11 @@ This command starts the Docker daemon manually in WSL
 
 By following these steps, you can resolve the docker: unrecognized service error and successfully start the Docker service.
 ```
+
+## インストール
+
+
+![1755247098960](image/2-struct-env/1755247098960.png)
 
 
 
